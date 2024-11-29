@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Boys Randomizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>The Boys: Hero Randomizer</h1>
+        <div>
+            <img id="hero-avatar" src="" alt="hero-avatar" />
+        </div>
+        <h2 id="hero-name">Mock Name</h2>
+        <p id="hero-info">Mock Info</p>
+        
+        <div class="hero-stats">
+            <h3>Skills</h3>
+            <ul>
+                <li>Intelligence: <span id="intelligence-value"></span>%</li>
+                <li>Strength: <span id="strength-value"></span>%</li>
+                <li>Speed: <span id="speed-value"></span>%</li>
+                <li>Durability: <span id="durability-value"></span>%</li>
+                <li>Power: <span id="power-value"></span>%</li>
+                <li>Combat: <span id="combat-value"></span>%</li>
+            </ul>
+        </div>
+        <button onclick="getRandomHero()">Get Hero</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
